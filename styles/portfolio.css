@@ -90,10 +90,14 @@ nav{
         max-width: 1140px;
         margin: 0 auto;
     }
+    /* sob section a akta common margin debo jno ber ber na dite hoy */
+    section{
+        margin-top: 130px;
+    }
 
     /* about section style */
     .about{
-        margin-top: 130px;
+        
         background: #FFF8F3;
         border-radius: 10px;
         padding: 130px 150px;
@@ -101,10 +105,10 @@ nav{
             }
     
     .section-title{
-
+text-align: center;
 margin-bottom: 30px;
 font-size: 35px;
-margin-bottom: 30px;
+margin-bottom: 50px;
     }
     .section-description{
 color: #757575;
@@ -125,3 +129,81 @@ margin-bottom: 30px;
         font-size: 20px;
         color: #474747;
     }
+    /* My skills */
+    .my-skills{
+        margin-top: 130px;
+    }
+    .skill-container{
+        display: flex;
+        gap: 24px;
+    }
+    /* skilsss er design korbo */
+    .skills{
+        background: #FFFFFF;
+        box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        padding: 30px;
+    }
+    .skill-title{
+        font-weight: 700px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .skill-description{
+        color: #757575;
+    }
+
+    /* resume styles */
+    /* likhar box 2ta pasapasi anbooo */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume.title{
+    color: #474747;
+    font-weight: 700px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume.sub-title{
+    color: #757575;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume.description{
+    color: #757575;
+
+}
+/* box thrke box gap debo */
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* Download Cv button */
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact style */
+.contact{
+    display: flex;
+    gap: 110px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+
+}
+/* inpute and text area er moddhe margin debo ar text ar email a sob hobe*/
+.contact input[type="text"], input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+text-decoration: none;
+}
