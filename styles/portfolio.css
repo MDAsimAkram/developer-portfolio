@@ -64,7 +64,7 @@ nav{
     .banner{
         display: flex;
         /* pic ar likha pasapasi anbo tai display flex dilam  ar margin upore niche 0 side a 200*/
-        margin: 0px 200px;
+        margin: 0px 0px 0px 250px;
         align-items: center;
 
     }
