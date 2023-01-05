@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    /* font family amra open sans theke copy kore anbo */
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav gula mane uporer bar ta ak line a anbo */
+nav{
+    display: flex;
+}
+
+/* akhn amra nav bar ta ak line anbo */
+
+nav ul{
+display: flex;
+/* likha gula majhe kortee align-item center korlam */
+align-items: center;
+}
+
+nav li{
+    list-style: none;
+    /* list er likhar moddhe gap banabo... */
+    margin-left: 25px;
+}
+
+/* akhn amra list gula ak konai pathabo mane distance create korbo ar margin debo */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+/* header and navigation styles*/
+.nav title {
+    font-weight: 800;
+    font-size: 45px;
+}
+/* akhn ami amar namer akta letter color change korbo tai eikhane and index.html a Asim namet jaiga ta change korbo */
+.text-primary{
+    color: #fd6e0a;
+}
+
+/* button er color sixe change korbo */
+.btn-primary{
+    color: aliceblue;
+    font-weight:  700px;
+    font-size:  20px;
+    border: 0px;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #fd6e0a;
+    }
+
+    .header{
+        background-color:  #FFF8F3;
+        /* eikhane amader image ta amader projrct folder er akdhap upore ache tai url("../images/header_bg.png");../mane ak dhap upore.joto dhap upore toto ..hobe ar eikhane 2ta background image niyechi*/
+        background-image: url("../images/header_bg.png"),url("../images/developer.png");
+        background-repeat: no-repeat;
+        /* niche right side a background image ta nibo tai ar porer pic ta left side a nibo tai*/
+        background-position: bottom right ,left;
+
+    }
+    /* banner styles likhbo */
+    .banner{
+        display: flex;
+        /* pic ar likha pasapasi anbo tai display flex dilam  ar margin upore niche 0 side a 200*/
+        margin: 0px 200px;
+        align-items: center;
+
+    }
+    .banner-title{
+        font-weight: 600px;
+        font-size: 75px;
+    }
+
+    .banner-sub-title{
+    font-weight: 400px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+    .banner-description{
+        color: rgb(178, 6, 247);
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    /* .css file a jeta tag <main> seita amni likhbo main{}...ar jeta class oita .about{} dot use korbo*/
+    /* main section */
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    /* about section style */
+    .about{
+        margin-top: 130px;
+        background: #FFF8F3;
+        border-radius: 10px;
+        padding: 130px 150px;
+        text-align: center;
+            }
+    
+    .section-title{
+
+margin-bottom: 30px;
+font-size: 35px;
+margin-bottom: 30px;
+    }
+    .section-description{
+color: #757575;
+font-size: 18px;
+margin-bottom: 30px;
+    }
+    /* About er box gula ak line a anbooo */
+    .about-info-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .about .info-title{
+        font-size: 20px;
+        color: #757575;
+    }
+    .info-description{
+        font-weight: 700;
+        font-size: 20px;
+        color: #474747;
+    }
